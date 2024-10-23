@@ -1,0 +1,19 @@
+{
+  "name": "atm-jago",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "register": "node register",
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^12.0.0",
+    "uuid": "^10.0.0"
+  }
+}
