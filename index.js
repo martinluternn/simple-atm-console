@@ -96,8 +96,6 @@ async function runWithdraw() {
       message: "Withdraw [amount]",
       validate: (input) => {
         if (!input) return "please enter valid amount";
-        console.log("inii 1: ", Number(getActualBalance(existUser)));
-        console.log("inii 2: ", Number(input));
         if (Number(getActualBalance(existUser)) < Number(input)) {
           return "your balance not sufficient";
         }
