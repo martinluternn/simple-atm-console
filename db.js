@@ -11,7 +11,7 @@ export function readData() {
 }
 
 export function writeData(data) {
-  fs.writeFileSync(dataFilePath, JSON.stringify(data, null, 2));
+  fs.writeFileSync(dataFilePath, JSON.stringify(data));
 }
 
 export function createItem(newItem) {

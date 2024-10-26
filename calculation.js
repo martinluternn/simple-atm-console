@@ -71,3 +71,7 @@ export function getOwed(user1, user2, amount, isOwedTo) {
 
   return results;
 }
+
+export function sum(a, b) {
+  return a + b;
+}
